@@ -1,6 +1,6 @@
 {% set name = "rfpimp" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "b5a7d61040a18da8ad6d6625fb4769604a22569c25c8cbc4a37f6e3cdd7ac547" %}
+{% set version = "1.2" %}
+{% set sha256 = "4456c7b67ddaf2d732db0a2663e71370fdd95c8ab9b012a18abe0dae9d102a47" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
