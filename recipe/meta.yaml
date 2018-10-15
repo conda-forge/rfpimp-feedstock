@@ -1,6 +1,6 @@
 {% set name = "rfpimp" %}
-{% set version = "1.2" %}
-{% set sha256 = "4456c7b67ddaf2d732db0a2663e71370fdd95c8ab9b012a18abe0dae9d102a47" %}
+{% set version = "1.2.2" %}
+{% set sha256 = "56ae40c952c2806a8a003c2558c92f46ca6cdb0594e4a385581e527938b8cf5c" %}
 
 package:
   name: {{ name|lower }}
