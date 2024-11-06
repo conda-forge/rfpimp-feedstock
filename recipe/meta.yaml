@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - numpy
     - pandas
     - scikit-learn
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
@@ -35,6 +35,7 @@ about:
   home: https://github.com/parrt/random-forest-importances
   license: MIT
   license_family: MIT
+  license_file: LICENSE.txt
   summary: 'Code to compute permutation and drop-column importances in Python scikit-learn random forests'
 
 extra:
